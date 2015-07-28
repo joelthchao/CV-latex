@@ -42,6 +42,6 @@
 	\begin{itemize}[leftmargin=1.5em]
 		\renewcommand\labelitemi{}
 		\itemsep=-0.5em
-	}{
+}{
 	\end{itemize}
 }
