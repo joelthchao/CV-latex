@@ -6,6 +6,7 @@
 \usepackage{enumitem}
 \usepackage{parskip}
 \usepackage{url}
+\usepackage{hyperref}
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
 \usepackage{bold-extra}
 
