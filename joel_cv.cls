@@ -39,7 +39,7 @@
 % #1: Title, #2: Interval, #3: subtitle
 \newenvironment{sectionContentNormal}[3]{
 	\hspace{1.2em} {\bf #1} \hfill {\em #2} \vspace{-0.5em}
-	\begin{itemize}[leftmargin=1.5em] \item[] {\em #3} \end{itemize} \vspace{-0.5em}
+	\begin{itemize}[leftmargin=1.5em] \item[] {#3} \end{itemize} \vspace{-0.5em}
 	\begin{itemize}[leftmargin=1.5em]
 		\renewcommand\labelitemi{}
 		\itemsep=-0.5em
