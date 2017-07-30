@@ -36,13 +36,23 @@
 	\end{itemize}
 }
 
-% #1: Title, #2: Interval, #3: subtitle
-\newenvironment{sectionContentNormal}[3]{
+% #1: Title, #2: timespan
+\newenvironment{profExp}[2]{
 	\hspace{1.2em} {\bf #1} \hfill {\em #2} \vspace{-0.5em}
-	\begin{itemize}[leftmargin=1.5em] \item[] {#3} \end{itemize} \vspace{-0.5em}
+	\begin{itemize}
+		\renewcommand\labelitemi{$\cdot$}
+		\itemsep=-0.5em
+	}{
+	\end{itemize}
+}
+
+% #1: Title, #2: subtitle
+\newenvironment{proj}[2]{
+	\hspace{1.2em} {\bf #1} \vspace{-0.7em}
+	\begin{itemize}[leftmargin=1.5em] \item[] {\bf \footnotesize #2} \end{itemize} \vspace{-0.7em}
 	\begin{itemize}[leftmargin=1.5em]
 		\renewcommand\labelitemi{}
 		\itemsep=-0.5em
-}{
+	}{
 	\end{itemize}
 }
