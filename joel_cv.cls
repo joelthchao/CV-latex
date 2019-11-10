@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{joel_cv}[2015/07/28 CV class by Joel]
+\ProvidesClass{joel_cv}[2019/11/10 CV class by Joel]
 
 \LoadClass[11pt,letterpaper]{article} % Font size and paper type
 
@@ -29,7 +29,7 @@
 % #1: Title, #2: Interval
 \newenvironment{sectionContentSimple}[2]{
 	\hspace{1.2em} {\bf #1} \hfill {\em #2} \vspace{-0.5em}
-	\begin{itemize}[leftmargin=1.5em]
+	\begin{itemize}[leftmargin=2.5em]
 		\renewcommand\labelitemi{}
 		\itemsep=-0.5em
 }{
@@ -49,8 +49,8 @@
 % #1: Title, #2: subtitle
 \newenvironment{proj}[2]{
 	\hspace{1.2em} {\bf #1} \vspace{-0.7em}
-	\begin{itemize}[leftmargin=1.5em] \item[] {\bf \footnotesize #2} \end{itemize} \vspace{-0.7em}
-	\begin{itemize}[leftmargin=1.5em]
+	\begin{itemize}[leftmargin=2.5em] \item[] {\bf \footnotesize #2} \end{itemize} \vspace{-0.7em}
+	\begin{itemize}[leftmargin=2.5em]
 		\renewcommand\labelitemi{}
 		\itemsep=-0.5em
 	}{
