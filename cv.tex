@@ -1,14 +1,12 @@
-% Last updated: 5/19/2019
+% Last updated: 1/18/2025
 \documentclass{joel_cv}
 
 \begin{document}
 
 % Name, phone, email, address
 \begin{cvHeader} 
-	\printName{Ting-Hsuan Chao (Joel)}
-	\printPhone{+886 912 016988}
-	\printEmail{joelthchao@gmail.com}
-	\printWebsite{http://joelthchao.github.io}
+    \printName{Ting-Hsuan Chao (Joel)}
+    \printEmail{joelthchao@gmail.com}
 \end{cvHeader}
 
 %
@@ -16,51 +14,69 @@
 %
 
 \sectionTitle{Experience}
-\begin{profExp}{Baidu Inc. - Senior NLP Engineer}{2018/09 - present}
-	\item Social network app AI architecture design and tech team leadership
-	\item Sticker recommendation system by natural language understanding
-	\item Japanese website recommendation system by Elasticsearch and CTR prediction
-	\item Input method editor Emoji prediction by language modeling
-	\item Increase neural conversation diversity by maximizing mutual information
+
+\begin{profExp}
+    {Dcard - Engineering Manager, ML}{2022/10 - present}{
+        \begin{itemize}
+            \item Led a cross-functional team of 10+ ML, backend, and data engineers, delivering multiple high-impact projects with measurable business outcomes.
+            \item Achieved a 30\%+ increase in user duration by optimizing the post recommendation system with advanced modeling techniques and system enhancements.
+            \item Achieved a 35\%+ increase in ad CTR by shaping business models, identifying key opportunities for model improvement, and resolving performance bottlenecks.
+            \item Doubled search volume and improved search success rate by transforming the search recommendation system from rule-based to learning-based methodologies.
+            \item Designed a next-generation data architecture and developed easy-to-use data models, enhancing scalability, accessibility, and enabling data-driven decision-making.
+            \item Built robust MLOps systems that streamlined ML workflows, accelerated iteration speed, and improved infrastructure stability to support growth.
+        \end{itemize}
+    }
 \end{profExp}
 
-\begin{profExp}{Appier Inc. - Machine Learning Scientist}{2016/05 - 2018/08}
-	\item Large-scale multi-languages user topic module from Spark, AI algorithm, database to APIs
-	\item Research on Chinese natural language understanding
-	\item Scalable and robust machine learning ensemble framework
-	\item Real-time user purchase intent prediction by RNN
-	\item Automatic advertisement bidding bot by Reinforcement Learning
-	\item Data augmentation by Generative Adversarial Networks for cross device user identification
+\begin{profExp}{Dcard - Senior Machine Learning Engineer}{2020/10 - 2022/10}{
+        \begin{itemize}
+            \item Led the development of the post recommendation system, significantly improving user experience.
+            \item Defined and executed product and technical roadmaps to align with business objectives.
+            \item Conducted data analytics and developed algorithms to enhance recommendation precision.
+            \item Designed and implemented robust data pipelines to ensure reliability and efficiency in data processing.
+            \item Optimized experiment design and A/B testing procedures, improving the accuracy and speed of decision-making processes.
+        \end{itemize}
+    }
+\end{profExp}
+
+\begin{profExp}{Baidu Inc. - Senior NLP Engineer}{2018/09 - 2020/02}{
+        \begin{itemize}
+            \item Social network app recommendation system design
+            \item Stamp suggestion by text intention understanding
+            \item Japanese website recommendation system by Elasticsearch and CTR prediction
+            \item Input method editor Emoji prediction by language modeling
+            \item Increase neural conversation diversity by maximizing mutual information
+            \item Research Japanese word embedding methods and leverage in subtasks to improve performance
+        \end{itemize}
+    }
+\end{profExp}
+
+\begin{profExp}{Appier Inc. - Machine Learning Scientist}{2016/05 - 2018/08}{
+        \begin{itemize}
+            \item Large-scale multi-languages user topic module from Spark, AI algorithm, database to APIs
+            \item Research on Chinese natural language understanding
+            \item Scalable and robust machine learning ensemble framework
+            \item Real-time user purchase intent prediction by RNN
+            \item Automatic advertisement bidding bot by Reinforcement Learning
+            \item Data augmentation by Generative Adversarial Networks for cross device user identification
+        \end{itemize}
+    }
 \end{profExp}
 
 \begin{profExp}{National Taiwan University - Research Assistant}{2015/08 - 2016/05}
-	\item Advanced research on deep learning compression and speedup
+    {
+        \begin{itemize}
+            \item Advanced research on deep learning compression and speedup
+        \end{itemize}
+    }
 \end{profExp}
 
-%\begin{profExp}{OpenHCI - Web Service}{Apr. 2015 - Jul. 2015}
-%	\item Website design and maintain, registration system development
-%	\item Network infrastructure construction
-%\end{profExp}
-
-%\begin{profExp}{National Taiwan University - Teaching Assistant}{Sep. 2013 - Feb. 2014}
-%	\item CSIE Department - Seminar
-%\end{profExp}
-
-\begin{profExp}{Hewlett-Packard, Inc - Software Engineer Intern}{2012/07 - 2013/06}
-	\item Develop and maintain softpaq checking tool, wireless diagnose tool, and web service APIs
+\begin{profExp}{Hewlett-Packard, Inc - Software Engineer Intern}{2012/07 - 2013/06}{
+        \begin{itemize}
+            \item Develop and maintain softpaq checking tool, wireless diagnose tool, and web service APIs
+        \end{itemize}
+    }
 \end{profExp}
-
-%
-% Research Interests
-%
-
-%\sectionTitle{Research Interests}
-%\begin{sectionItemize}{$\cdot$}
-%	\item \textbf{Computer Vision}:
-%	Scalable Object Detection, Large Scale Image Classification, Scene Recognition
-%	\item \textbf{Deep Learing}:
-%	Generative Model, Model Compression and Speedup
-%\end{sectionItemize}
 
 %
 % Education
@@ -68,13 +84,13 @@
 
 \sectionTitle{Education}
 \begin{sectionContentSimple}{National Taiwan University}{2013/09 - 2015/07}
-	\item M.S. in Computer Science \& Information Engineering
-	\item Communications and Multimedia Laboratory (CMLAB), MiRA Group
-	\item Advisor: Winston H. Hsu
+    \item M.S. in Computer Science \& Information Engineering
+    \item Communications and Multimedia Laboratory (CMLAB), MiRA Group
+    \item Advisor: Winston H. Hsu
 \end{sectionContentSimple}
 
 \begin{sectionContentSimple}{National Taiwan University}{2009/09 - 2013/07}
-	\item B.S. in Electrical Engineering
+    \item B.S. in Electrical Engineering
 \end{sectionContentSimple}
 
 %
@@ -83,17 +99,12 @@
 
 \sectionTitle{Publications}
 \begin{sectionItemize}{$\cdot$}
-	\item \underline{Ting-Hsuan Chao}, Yen-Liang Lin, Yin-Hsi Kuo and Winston H. Hsu, "Scalable Object Detection by Filter Compression with Regularized Sparse Coding," CVPR 2015. \href{http://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Chao_Scalable_Object_Detection_2015_CVPR_paper.html}{(Full paper)}
-
-	\item Wei-Tsung Lin, \underline{Ting-Hsuan Chao}, Jian-Min Wu, Tian-Huang Su, "Predict Emoji Combination with Retrieval Strategy", ACM Multimedia 2015. \href{https://www.anlp.jp/proceedings/annual_meeting/2019/pdf_dir/B2-5.pdf}{(Short paper)}
-	
-	\item Yu-Hsiu Chen, \underline{Ting-Hsuan Chao}, Yen-Liang Lin and Winston H. Hsu, "Filter-Invariant Image Classification on Social Media Photos", ACM Multimedia 2015. \href{http://dl.acm.org/citation.cfm?id=2806348}{(Short paper)}
-	
-	\item Wei-Tse Sun, \underline{Ting-Hsuan Chao}, Yin-Hsi Kuo and Winston H. Hsu "Photo Filter Recommendation by Category-Aware Aesthetic Learning", IEEE Transactions on Multimedia 2017. \href{http://joelthchao.github.io/pdf/photo_sun_tmm_2017.pdf}{(Journal paper)}
-	
-	\item Wen-Yu Lee, Yin-Hsi Kuo, Peng-Ju Hsieh, Wen-Feng Cheng, \underline{Ting-Hsuan Chao}, Hui-Lan Hsieh, Chieh-En Tsai, Hsiao-Ching Chang, Jia-Shin Lan, Winston Hsu, "Unsupervised Latent Sub-events Discovery based on Multi-content and Human Activities Analysis for Diverse Event Summarization", ACM Multimedia 2015. \href{http://dl.acm.org/citation.cfm?id=2809935}{(Grand Challenge)}
-	
-	\item Chun-yen Yeh, Yu-Chuan Su, Hsin-Fu Huang, \underline{Ting-Hsuan Chao}, Sebastian Agethen, Winston H. Hsu, "Low-Bitrate and Online Mobile Video Classification", ICCE 2016. (Short paper)
+    \item \underline{Ting-Hsuan Chao}, Yen-Liang Lin, Yin-Hsi Kuo and Winston H. Hsu, "Scalable Object Detection by Filter Compression with Regularized Sparse Coding," CVPR 2015. \href{http://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Chao_Scalable_Object_Detection_2015_CVPR_paper.html}{(Full paper)}
+    \item Wei-Tsung Lin, \underline{Ting-Hsuan Chao}, Jian-Min Wu, Tian-Huang Su, "Predict Emoji Combination with Retrieval Strategy", ACM Multimedia 2015. \href{https://www.anlp.jp/proceedings/annual_meeting/2019/pdf_dir/B2-5.pdf}{(Short paper)}
+    \item Yu-Hsiu Chen, \underline{Ting-Hsuan Chao}, Yen-Liang Lin and Winston H. Hsu, "Filter-Invariant Image Classification on Social Media Photos", ACM Multimedia 2015. \href{http://dl.acm.org/citation.cfm?id=2806348}{(Short paper)}
+    \item Wei-Tse Sun, \underline{Ting-Hsuan Chao}, Yin-Hsi Kuo and Winston H. Hsu "Photo Filter Recommendation by Category-Aware Aesthetic Learning", IEEE Transactions on Multimedia 2017. \href{http://joelthchao.github.io/pdf/photo_sun_tmm_2017.pdf}{(Journal paper)}
+    \item Wen-Yu Lee, Yin-Hsi Kuo, Peng-Ju Hsieh, Wen-Feng Cheng, \underline{Ting-Hsuan Chao}, Hui-Lan Hsieh, Chieh-En Tsai, Hsiao-Ching Chang, Jia-Shin Lan, Winston Hsu, "Unsupervised Latent Sub-events Discovery based on Multi-content and Human Activities Analysis for Diverse Event Summarization", ACM Multimedia 2015. \href{http://dl.acm.org/citation.cfm?id=2809935}{(Grand Challenge)}
+    \item Chun-yen Yeh, Yu-Chuan Su, Hsin-Fu Huang, \underline{Ting-Hsuan Chao}, Sebastian Agethen, Winston H. Hsu, "Low-Bitrate and Online Mobile Video Classification", ICCE 2016. (Short paper)
 \end{sectionItemize}
 
 %
@@ -102,9 +113,9 @@
 
 \sectionTitle{Academic Experience}
 \begin{sectionItemize}{$\cdot$}
-	\item Reviewer for IEEE Transactions on Multimedia (TMM)
-	\item Poster Presentation in CVPR 2015, Boston, USA
-	\item Poster Presentation in ACM Multimedia 2015, Brisbane, Australia
+    \item Reviewer for IEEE Transactions on Multimedia (TMM)
+    \item Poster Presentation in CVPR 2015, Boston, USA
+    \item Poster Presentation in ACM Multimedia 2015, Brisbane, Australia
 \end{sectionItemize}
 
 %
@@ -114,37 +125,18 @@
 \sectionTitle{Projects}
 
 \begin{proj}{Keras - Contributor}
-	{Deep Learning $\diamond$ Tensorflow $\diamond$ Theano $\diamond$ Python}
-	\item A high-level neural networks API, written in Python. Commit over 600+ lines, including a image preprocessing module, a locally connected layer and bug fixes. Answer 140+ issues and resolve 120+ of them.
+    {Deep Learning $\diamond$ Tensorflow $\diamond$ Theano $\diamond$ Python}
+    \item A high-level neural networks API, written in Python. Commit over 600+ lines, including a image preprocessing module, a locally connected layer and bug fixes. Answer 140+ issues and resolve 120+ of them.
 \end{proj}
 
 \begin{proj}{Kaggle - National Data Science Bowl}
-	{Deep Learning $\diamond$ Caffe $\diamond$ CNN $\diamond$ Computer Vision}
-	\item Learn to recognize plankton by training convolutional neural networks. Rank $51^{th} (4.9\%)$ in competition.
+    {Deep Learning $\diamond$ Caffe $\diamond$ CNN $\diamond$ Computer Vision}
+    \item Learn to recognize plankton by training convolutional neural networks. Rank $51^{th} (4.9\%)$ in competition.
 \end{proj}
 
 \begin{proj}{Kaggle - Carvana Image Masking Challenge}
-	{Deep Learning $\diamond$ Keras $\diamond$ Image segmentation $\diamond$ Computer Vision}
-	\item Learn to segment car from background by training fully convolutional neural netword. Blonze plate.
-\end{proj}
-
-\begin{proj}{HackNTU - WhosDrive}
-	{Car Camera Recorder $\diamond$ Car Number Plate Detection $\diamond$ Android}
-	\item A mobile/web application devoted to solve traffic problem by automatically detecting car plate number and reporting dangerous drivers to our database. Also, it can perform real-time notification of dangerous car's approaching.
-\end{proj}
-
-\begin{proj}{National Taiwan University Hosipital - Swallowing Analysis}
-	{Object Tracking $\diamond$ SVM $\diamond$ MATLAB $\diamond$ Computer Vision}
-	\item Analyze swallowing function of patients by tracking Hyoid bone in X-ray photos.
-\end{proj}
-
-\begin{proj}{Flora}{ML $\diamond$ OpenCV $\diamond$ Android $\diamond$ Computer Vision}
-	\item A mobile application able to automatically recognize breed of a given flower.
-\end{proj}
-
-\begin{proj}{ScoreMaster}
-	{Android $\diamond$ Camera $\diamond$ Education}
-	\item An online Q\&A platform for junior/senior high school students. Teachers can answer questions and earn money on it.
+    {Deep Learning $\diamond$ Keras $\diamond$ Image segmentation $\diamond$ Computer Vision}
+    \item Learn to segment car from background by training fully convolutional neural netword. Blonze plate.
 \end{proj}
 
 %
@@ -153,8 +145,8 @@
 
 \sectionTitle{Technical Strengths}
 \begin{sectionItemize}{$\cdot$}
-	\item Programming Language: Python, Scala, C++, JAVA, MATLAB, javascript
-	\item Framework: Keras, TensorFlow, PyTorch, Spark, Caffe, Android, node.js
+    \item Programming Language: Python, Scala, C++, JAVA, MATLAB, javascript
+    \item Framework: Keras, TensorFlow, PyTorch, Spark, Caffe, Android, node.js
 \end{sectionItemize}
 
 \end{document}

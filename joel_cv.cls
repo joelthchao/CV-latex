@@ -19,40 +19,40 @@
 
 \newenvironment{cvHeader}{\begin{center}}{\end{center}}
 \newenvironment{sectionItemize}[1]{
-	\begin{itemize}
-	\renewcommand\labelitemi{#1}
-	\itemsep=-0.5em
+    \begin{itemize}
+    \renewcommand\labelitemi{#1}
+    \itemsep=-0.5em
 }{
-	\end{itemize}
+    \end{itemize}
 }
 
 % #1: Title, #2: Interval
 \newenvironment{sectionContentSimple}[2]{
-	\hspace{1.2em} {\bf #1} \hfill {\em #2} \vspace{-0.5em}
-	\begin{itemize}[leftmargin=2.5em]
-		\renewcommand\labelitemi{}
-		\itemsep=-0.5em
+    \hspace{1.2em} {\bf #1} \hfill {\bf\em #2} \vspace{-0.5em}
+    \begin{itemize}[leftmargin=2.5em]
+        \renewcommand\labelitemi{}
+        \itemsep=-0.5em
 }{
-	\end{itemize}
+    \end{itemize}
 }
 
-% #1: Title, #2: timespan
-\newenvironment{profExp}[2]{
-	\hspace{1.2em} {\bf #1} \hfill {\em #2} \vspace{-0.5em}
-	\begin{itemize}
-		\renewcommand\labelitemi{$\cdot$}
-		\itemsep=-0.5em
-	}{
-	\end{itemize}
+% #1: Title, #2: timespan, #3 content
+\newenvironment{profExp}[3]{
+    \setlist[itemize,1]{label=$\cdot$, itemindent=0em, itemsep=-0.5em, topsep=-0.5em}
+    \setlist[itemize,2]{label=$\cdot$, itemindent=-1em, itemsep=-0.5em, topsep=-0.5em}
+    \hspace{1.2em} {\bf #1} \hfill {\bf\em #2}
+    \vspace{0.2em}
+    {#3}
+    \vspace{0.5em}
 }
 
 % #1: Title, #2: subtitle
 \newenvironment{proj}[2]{
-	\hspace{1.2em} {\bf #1} \vspace{-0.7em}
-	\begin{itemize}[leftmargin=2.5em] \item[] {\bf \footnotesize #2} \end{itemize} \vspace{-0.7em}
-	\begin{itemize}[leftmargin=2.5em]
-		\renewcommand\labelitemi{}
-		\itemsep=-0.5em
-	}{
-	\end{itemize}
+    \hspace{1.2em} {\bf #1} \vspace{-0.7em}
+    \begin{itemize}[leftmargin=2.5em] \item[] {\bf \footnotesize #2} \end{itemize} \vspace{-0.7em}
+    \begin{itemize}[leftmargin=2.5em]
+        \renewcommand\labelitemi{}
+        \itemsep=-0.5em
+    }{
+    \end{itemize}
 }
